@@ -1,0 +1,7 @@
+llama-cpp-python
+huggingface-hub
+fastapi
+pyngrok
+python-telegram-bot
+uvicorn
+nest-asyncio
