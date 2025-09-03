@@ -33,7 +33,7 @@ def load_ai_model():
         try:
             llm_model = Llama.from_pretrained(
                 repo_id="mradermacher/SEX_ROLEPLAY-3.2-1B-i1-GGUF",
-                filename="SEX_ROLEPLAY-3.2-1B.i1-Q2_K.gguf",
+                filename="SEX_ROLEPLAY-3.2-1B.i1-Q6_K.gguf",
                 local_files_only=False,
                 verbose=False,
                 n_ctx=512,
