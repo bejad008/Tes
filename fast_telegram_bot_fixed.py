@@ -1,4 +1,4 @@
-# pip install python-telegram-bot llama-cpp-python requests pillow
+# pip install python-telegram-bot llama-cpp-python requests pillow huggingface_hub
 
 import logging
 import os
