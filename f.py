@@ -264,14 +264,7 @@ def main():
     print("=" * 50)
     
     # FASTEST polling method
-    try:
-        app.run_polling(
-            drop_pending_updates=True,
-            pool_timeout=1,      # Faster polling
-            connection_pool_size=10,  # More connections
-            read_timeout=5,      # Faster timeout
-            write_timeout=5,     # Faster write
-        )
+    
     except KeyboardInterrupt:
         print("\n⚡ Speed bot stopped!")
     except Exception as e:
