@@ -262,15 +262,6 @@ def main():
     print("💨 Response Time: INSTANT")
     print("🛑 Press Ctrl+C to stop")
     print("=" * 50)
-    
-    # FASTEST polling method
-    
-    except KeyboardInterrupt:
-        print("\n⚡ Speed bot stopped!")
-    except Exception as e:
-        print(f"❌ Speed bot error: {e}")
-    finally:
-        executor.shutdown(wait=False)  # Quick shutdown
 
 if __name__ == "__main__":
     main()
