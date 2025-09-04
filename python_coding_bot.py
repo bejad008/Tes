@@ -19,7 +19,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configuration
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8022320384:AAFkG2EvVr0RMqdLeQAK54Jl-oEClbQeMOU")
 WORKSPACE_DIR = Path("bot_workspace")
 WORKSPACE_DIR.mkdir(exist_ok=True)
 
