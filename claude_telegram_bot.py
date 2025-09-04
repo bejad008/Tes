@@ -22,7 +22,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configuration
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"  # Replace with your actual token
+BOT_TOKEN = "8022320384:AAFkG2EvVr0RMqdLeQAK54Jl-oEClbQeMOU"  # Replace with your actual token
 WORKSPACE_DIR = "bot_workspace"
 
 # Global variables
