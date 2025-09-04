@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 
 # Configuration
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8305182212:AAEDWgzi09qYZMMZDj-o-H-NX5jdvu3cm9E")
-HUGGINGFACE_TOKEN = os.getenv("HF_TOKEN", "")  # Add your HuggingFace token here
+HUGGINGFACE_TOKEN = os.getenv("HF_TOKEN", "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")  # Add your HuggingFace token here
 
 # Global variables
 llm_model = None
